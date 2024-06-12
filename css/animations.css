@@ -1,0 +1,251 @@
+@-webkit-keyframes won {
+    to {
+        box-shadow: 0 0 0 10px rgba(232, 76, 61, 0);
+    }
+}
+
+@-moz-keyframes won {
+    to {
+        box-shadow: 0 0 0 10px rgba(232, 76, 61, 0);
+    }
+}
+
+@-ms-keyframes won {
+    to {
+        box-shadow: 0 0 0 10px rgba(232, 76, 61, 0);
+    }
+}
+
+@keyframes won {
+    to {
+        box-shadow: 0 0 0 10px rgba(232, 76, 61, 0);
+    }
+}
+
+.fadeIn {
+    &.loaded {
+        animation: fadeIn 1.5s;
+    }
+}
+
+.fadeInDownLeft {
+    &.loaded {
+        animation: fadeInDownLeft 1.5s;
+    }
+}
+
+.fadeInDownRight {
+    &.loaded {
+        animation: fadeInDownRight 1.5s;
+    }
+}
+
+.fadeInUpRight {
+    &.loaded {
+        animation: fadeInUpRight 1.5s;
+    }
+}
+
+.fadeInUpLeft {
+    &.loaded {
+        animation: fadeInUpLeft 1.5s;
+    }
+}
+
+.fadeInUp {
+    &.loaded {
+        animation: fadeInUp 1.5s;
+    }
+}
+
+.fadeInLeft {
+    &.loaded {
+        animation: fadeInLeft 1.5s;
+    }
+}
+
+.fadeInDown {
+    &.loaded {
+        animation: fadeInDown 1.5s;
+    }
+}
+
+.fadeInRight {
+    &.loaded {
+        animation: fadeInRight 1.5s;
+    }
+}
+
+
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-20px);
+        -ms-transform: translateX(-20px);
+        transform: translateX(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+.fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(20px);
+        -ms-transform: translateX(20px);
+        transform: translateX(20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+.fadeInRight {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(0);
+    }
+
+    80% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.fadeInUp {
+    &.loaded {
+        animation: fadeInUp 2.5s;
+    }
+}
+
+.fadeInDown {
+    &.loaded {
+        animation: fadeInDown 2.5s;
+    }
+}
+
+.fadeInRight {
+    &.loaded {
+        animation: fadeInRight 2.5s;
+    }
+}
+
+.fadeInLeft {
+    &.loaded {
+        animation: fadeInLeft 2.5s;
+    }
+}
+
+
+
+.collection-area.loaded {
+    animation: fadeInUp 2.5s;
+}
+
+.screen2Left.loaded {
+    animation: fadeInLeft 2.5s;
+}
+
+.screen2Right.loaded {
+    animation: fadeInRight 2.5s;
+}
+
+.screen3Text.loaded {
+    animation: fadeInRight 2.5s;
+}
+
+.section-title.loaded {
+    animation: fadeInDown 2.5s;
+}
+
+.product-tab.loaded {
+    animation: fadeInDown 2.5s;
+}
+
+.product-custom.loaded {
+    animation: fadeInUp 2.5s;
+}
+
+.right-banner.loaded {
+    animation: fadeInRight 2.5s;
+}
+
+.left-banner.loaded {
+    animation: fadeInLeft 2.5s;
+}
+
+.testimonial-dsc.loaded {
+    animation: fadeInRight 2.5s;
+}
+
+.testimonial-img.loaded {
+    animation: fadeInLeft 2.5s;
+}
+
+.product-slider.loaded {
+    animation: fadeInUp 2.5s;
+}
